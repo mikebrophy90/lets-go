@@ -1,39 +1,83 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+![alt text](https://github.com/mikebrophy90/lets-go/blob/master/assets/images/Small%20Logo.png?raw=true "Let's Go Logo")
 
-Welcome USER_NAME,
+# Let's Go
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
+This is a website designed to help older and more vulnerable people stay connected and thrive during the new normal. It allows those who are less technologically minded to take advantage of internet.
 
-## Gitpod Reminders
+It is broken down into 4 pages:
+Let's Move - Provides embedded workout videos to help get users moving
+Let's Learn - A way of learning a new skill to keep users thinking at home
+Let's Explore - A way of seeing the world from the comfort of your own home
+Family - A series of videos teaching users how to use software and websites designed to keep users connected such as social media
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## Deployment
 
-`python3 -m http.server`
+Let's Go has been deployed to github pages and is accessible [here](https://ngiappuoykoh.github.io/Hackathon-Jul-2020-Team7/)
 
-A blue button should appear to click: *Make Public*,
+## UX
 
-Another blue button should appear to click: *Open Browser*.
+### User Stories
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+- As a user, I want to continue to talk to my friends and family while staying safe and social distancing
+- As a user, I want to learn new things while I am cocooning
+- As a user, I want to see beautiful parts of the world from my home
+- As a user, I want to stay active in interesting and new ways
 
-A blue button should appear to click: *Make Public*,
+The Let's Go Website achieves this by
 
-Another blue button should appear to click: *Open Browser*.
+- Providing users with informative videos of how to use the best communication tools out there such as Zoom and whatsapp. It also teaches users how to set up and use their social media, all of which helps users remain connected.
+- Providing handy links to guides on cooking various meals. There is enough variety that there is going to be something the user hasn't tried.
+- Allowing the user to see the world through other peoples eyes, showing video and interactive footage of museums and the great outdoors.
+- Showing users through videos, new and interesting ways to stay fit. These videos show step by step what the user can do or will do the workout with them.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the backend lessons.
+### User Experience
 
-## Updates Since The Instructional Video
+![alt text](https://github.com/NgiapPuoyKoh/Hackathon-Jul-2020-Team7/blob/master/assets/images/LetsGo%20AmIResponsive.png?raw=true "Website on Am I Responsive")
 
-We continually tweak and adjust this template to help give you the best experience. Here are the updates since the original video was made:
+The site is built for ease of use for those that are less technologically minded such as the elderly.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+Bright contrasting colours are used to show different sections of the screen so that it is clear which section you are heading for.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+Let's go has been designed to be used on any screen size, with a particular focus on tablets as this is what we assume the main user base will access the site from.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+The process of designing the website began with team members providing wireframes of their thoughts for the site. The best features of the wireframes were voting on and used for the website. Wireframes are available to view [here](https://github.com/NgiapPuoyKoh/Hackathon-Jul-2020-Team7/tree/master/wireframes). An example is shown:
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+![alt text](https://github.com/NgiapPuoyKoh/Hackathon-Jul-2020-Team7/blob/master/wireframes/homepage.png?raw=true) ![alt text](https://github.com/NgiapPuoyKoh/Hackathon-Jul-2020-Team7/blob/master/wireframes/Team7MockUp.png?raw=true "Wireframe") 
 
---------
+## Features
+ 
+### Existing Features
+- Workout videos - Allowing users to follow along with workouts by selecting Let's Move and clicking on a video of choice.
+- Cooking videos - Users can select Let's Learn, view a selection of recipes then click on the button below the recipe to launch an middle of the screen video.
+- Interactive tours - Users can choose Let's Explore to find a list of interative tours. Selecting a tour requires a click of a button below the chosen tour to be taken to a new page and the site selected.
+- Connection instuction - The Family page provides user access to videos that will help them set up software used to keep them connected with the world. Users can select Family, then click a button below the software they wish to use to stay connected.
 
-Happy coding!
+## Technologies Used
+
+### Languages and Frameworks
+
+-   HTML
+-   CSS
+-   Bootstrap
+
+### Tools Used
+
+- [Balsamiq](https://balsamiq.com/): Used to create wireframes
+- [Gitpod](https://www.gitpod.io/): IDE used for creating and editing code
+- [Am I Responsive](http://ami.responsivedesign.is/#): Used for site testing at various screen sizes
+
+## Testing
+
+The site was tested to ensure proper usability on all screen sizes. Both Am I Responsive and Google Inspect were used to make sure the website fitted well into whichever screen size the user chose to view the website on.
+
+The User stories were tested by getting each individual memeber of the team to load up the site and various devices, such as tablets and phones, they were then able to test that the users were able to access content in the same number of clicks regardless of device. This also allowed us to make sure technologies such as modals and videos would work on all devices.
+
+## Credits
+
+### Media
+- The majority of the video media used on this site was from [Youtube](https://www.youtube.com/)
+- Pictures were obtained through the use of google images from various sources
+
+### Acknowledgements
+
+- As a team we would like to acknowledge our judge Kevin for his advice and guidance throughtout this process.

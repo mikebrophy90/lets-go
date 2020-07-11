@@ -1,0 +1,431 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Karla&display=swap');
+body {
+  font-family: Verdana, sans-serif;
+}
+
+header {
+  width: 100%;
+  height: 20vh;
+ background: linear-gradient(45deg, rgb(15,15,15),rgb(32, 31, 31));
+  color: #fafafa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-lp{
+    width:20%;
+    height:50%;
+    
+}
+
+.logo-lp img{
+    width:auto;
+    height:100%;
+    margin-left: 15px;
+}
+
+.header-text {
+  max-width: 80%;
+  text-align: right;
+  margin-right: 50px;
+  
+}
+.header-text h1 {
+  margin-top: 5px;
+  margin-bottom: 8px;
+  font-size: 2rem;
+}
+
+.header-text h2 {
+  font-size: 1.75rem;
+}
+
+.header-text p {
+  margin-top: 20px;
+  font-size: 1.5rem;
+  display: none;
+}
+
+.logo-lp {
+  margin-right: auto;
+  margin-left: 10px;
+}
+
+.nav-container {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.quadrant {
+  text-align: center;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.nav-links {
+  display: flex;
+  width: 50%;
+  height: 40vh;
+  color: #fafafa;
+  
+}
+.nav-links:hover {
+  text-decoration: none;
+}
+
+.q-1 {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  background: linear-gradient(
+    45deg,
+    rgb(120, 30, 70) 40%,
+    rgb(177, 66, 116),
+rgb(53, 8, 27), rgb(49, 6, 25)
+  );
+  animation: click 1s linear forwards;
+  background-size: 300% 300%;
+}
+
+.quadrant:hover{
+     animation: gradient 5s ease infinite;
+     
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 0%;
+	}
+    25%{
+        background-position: 50% 50%;
+    }
+	50% {
+		background-position: 100% 50%;
+	}
+
+    75%{
+        background-position: 50% 50%;
+    }
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+.q-2 {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  background: linear-gradient(
+    45deg,
+    rgb(33, 138, 65) 40%,
+    rgb(12, 90, 35),
+    rgb(5, 48, 18),
+     rgb(12, 73, 30)
+  );
+  animation: click 1s linear forwards;
+  background-size: 300% 300%;
+}
+
+
+
+.q-3 {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  background: linear-gradient(
+    45deg,
+    rgb(117, 73, 240) 40%,
+  rgb(44, 15, 117),
+    rgb(12, 3, 39)
+  );
+  animation: click 1s linear forwards;
+  background-size: 300% 300%;
+}
+
+
+
+
+.q-4 {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  background: linear-gradient(
+    45deg,
+    rgb(180, 113, 25) 40%,
+    rgb(141, 86, 14)50%,
+    rgb(95, 57, 8),
+    rgb(51, 30, 3)
+  );
+  animation: click 1s linear forwards;
+  background-size: 300% 300%;
+}
+
+
+
+.nav-text h2 {
+  color: #fafafa;
+  text-decoration: none;
+  font-size: 3rem;
+  font-family: 'Bebas Neue', cursive;
+}
+
+.nav-text p {
+  color: #fafafa;
+  text-decoration: none;
+  font-size: 2rem;
+  font-family: 'Karla', sans-serif;
+}
+
+
+@media screen and (max-width:992px){
+    .header-text h1{
+        font-size: 1.5rem;
+    }
+    .header-text h2 {
+        font-size: 1.25rem;
+    }
+
+    .header-text p {
+        font-size: 1rem;
+        display: block;
+    }
+}
+
+@media screen and (max-width:768px){
+    .q-1, .q-2, .q-3, .q-4{
+    
+        animation: gradient 5s ease forwards;
+
+    }
+
+    .q-1{
+        animation-delay: 0s;
+    }
+
+    .q-2{
+         animation-delay: 3s;
+    }
+
+    .q-3{
+         animation-delay: 8s;
+    }
+
+    .q-4{
+         animation-delay: 13s;
+    }
+
+    @keyframes gradient {
+	0% {
+		background-position: 0% 0%;
+	}
+    25%{
+        background-position: 50% 50%;
+    }
+	50% {
+		background-position: 100% 50%;
+	}
+
+    75%{
+        background-position: 50% 50%;
+    }
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+}
+
+@media screen and (max-width:660px){
+    .header-text{
+        text-align: center;
+        margin-top: 5px;
+    }
+    .nav-text h2{
+        font-size: 2rem;
+    }
+
+    .nav-text p {
+        font-size: 1.25rem;
+    }
+}
+@media screen and (max-width:461px){
+    .header-text{
+        text-align: center;
+        margin-top: 20px;
+    }
+    .header-text h1{
+       
+        font-size: 1rem;
+      
+    }
+    .header-text h2 {
+        font-size: 1rem;
+    }
+
+    .header-text p {
+        font-size: 0.75rem;
+    }
+}
+
+@media screen and (max-width:352px){
+   .logo-lp {
+    margin-left: -9px;
+   }
+}
+
+
+/*--Let's Move section--*/
+
+.main2 {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  background: linear-gradient(45deg,rgb(120, 30, 70) 40%, rgb(177, 66, 116),rgb(163, 100, 128),rgb(223, 202, 211)) ;
+}
+.iframe-container {
+position: relative;
+  padding-bottom: 56.25%; 
+  height: 0;
+}
+.iframe-container iframe{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.video-wraper {
+
+    padding: 10px;
+}
+
+
+
+
+/* Move Section */
+
+
+footer{
+    margin-top: 50px;
+    display: flex;
+    height:20vh;
+    align-items:center;
+    text-align: center;
+}
+.logo-container{
+    max-width:25%;
+    height:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(45deg, rgb(15,15,15),rgb(32, 31, 31));
+}
+.logo-container img {
+    width:40%;
+    height:auto;
+}
+
+.text-container {
+    min-width:25%;
+    height:100%;
+    text-align: center;
+}
+
+.text-container a {
+color:#fafafa;
+width:100%;
+height:100%;
+ display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  
+}
+
+.text-container a:hover{
+    text-decoration: none;
+}
+
+
+.learn{
+    background: linear-gradient(
+    45deg,
+    rgb(33, 138, 65) 40%,
+    rgb(12, 90, 35),
+    rgb(5, 48, 18),
+     rgb(12, 73, 30)
+  );
+   background-size: 300% 300%;
+}
+.explore{
+    background: linear-gradient(
+    45deg,
+    rgb(117, 73, 240) 40%,
+  rgb(44, 15, 117),
+    rgb(12, 3, 39)
+  );
+   background-size: 300% 300%;
+}
+
+.family{
+    background: linear-gradient(
+    45deg,
+    rgb(180, 113, 25) 40%,
+    rgb(141, 86, 14)50%,
+    rgb(95, 57, 8),
+    rgb(51, 30, 3)
+  );
+   background-size: 300% 300%;
+}
+
+
+.learn:hover, .explore:hover, .family:hover{
+     animation: footer 5s ease infinite;
+     
+}
+
+@keyframes footer {
+	0% {
+		background-position: 0% 0%;
+	}
+    25%{
+        background-position: 50% 50%;
+    }
+	50% {
+		background-position: 100% 50%;
+	}
+
+    75%{
+        background-position: 50% 50%;
+    }
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+
+@media screen and (max-width: 488px) {
+  footer {
+    flex-wrap: wrap;
+  }
+  .logo-container {
+    max-width: 50%;
+  }
+
+  .text-container {
+    width: 50%;
+  }
+}
